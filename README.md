@@ -63,22 +63,22 @@ This output is already being sent over to the flash memory on the ESP32 through 
 Using _FileZilla_ is rather easy once you get the hang of it. 
 
 Firstly open up the client. Then on the front page, there will be a small icon labeled open site manager. 
-![image1](/Images/1.png)
+![image1](https://raw.githubusercontent.com/Gdragos1217/IMUFTPSPIFFS/main/Images/1.PNG)
 
 Next in the Site Manager, you should create a new site. Naming it whatever you may want. For the other things like _Host_ and _User_ we need to see what our ESP32 says. 
 Look into the ESP32 code and once it starts it will state the actual _User_. 
 
-![image2.5](/Images/2.5.png)
+![image2.5](https://raw.githubusercontent.com/Gdragos1217/IMUFTPSPIFFS/main/Images/2.5.PNG)
 
 Once we have this we need to find out our _Host_, which we can see once we start up the program and run it on our ESP32 in the Serial Monitor. This stays the same if you stay on the same network.
 
-![image2.75](/Images/2.75.png)
+![image2.75](https://raw.githubusercontent.com/Gdragos1217/IMUFTPSPIFFS/main/Images/2.75.PNG)
 
 Once we have this we can input all the information we need into _FileZilla_ and get the IMU data. All we have to do after is input the password, _normally esp32_. Your settings should look like mine as well. ![image](/Images/2.png)
 Once you are ready hit connect to actually start looking for the server on your end. It should connect as soon as it can, but if it does not then review the SSID and Passcode on the wifi portion of the FTP code. 
 
 
-![image](/Images/3.png)
+![image](https://raw.githubusercontent.com/Gdragos1217/IMUFTPSPIFFS/main/Images/3.PNG)
 
 ### Sending files to the ESP32
 Downloading and sending files is incredibly straight forward, just drop whatever file you want into the __ESP32__ directory and bam! If sending it does not work the first time try it again and again. This is the same for downloading files, right click the file and hit download. It is a straightforward process.
