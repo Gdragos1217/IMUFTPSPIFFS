@@ -1,2 +1,0 @@
-# IMUFTPSPIFFS
-Project VELOS 
